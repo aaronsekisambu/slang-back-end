@@ -1,0 +1,31 @@
+{
+  "name": "slang-back-end",
+  "version": "1.0.0",
+  "description": "text to speech api",
+  "main": "index.ts",
+  "repository": "https://github.com/aaronsekisambu/slang-back-end.git",
+  "author": "Aaron Sekisambu",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "start:dev": "nodemon --exec ts-node src/index.ts --watch src",
+    "test": "jest",
+    "format": "prettier --write '**/*.{ts,js,css,html}'",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.7",
+    "@types/lodash": "^4.14.158",
+    "@types/morgan": "^1.9.1",
+    "@types/nodemon": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "lodash": "^4.17.19",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
