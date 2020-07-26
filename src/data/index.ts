@@ -1,1 +1,10 @@
-export const word = ['making', 'eating', 'women', 'working', 'ok'];
+export const word = [
+	'encyclopedia',
+	'handkerchief',
+	'encapsulation',
+	'chiaroscurist',
+	'pronunciation',
+	'logorrhea',
+	'pharaoh',
+	'chiaroscurist',
+];
